@@ -156,8 +156,8 @@
         <!-- Scan line effect -->
         <div class="scan-line"></div>
 
-        <div class="container mx-auto px-6 py-12 lg:py-20">
-            <div class="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center min-h-[80vh]">
+        <div class="container mx-auto px-4 sm:px-6 py-8 sm:py-12 lg:py-20">
+            <div class="grid lg:grid-cols-2 gap-8 lg:gap-20 items-center min-h-[auto] lg:min-h-[80vh]">
                 
                 <!-- Left side - Branding & Info -->
                 <div class="relative z-10">
@@ -177,12 +177,12 @@
                     </div>
 
                     <!-- Logo -->
-                    <div class="float-data mb-8 -ml-2 lg:-ml-4">
-                        <img src="logo.svg" alt="Bear Radar" class="h-32 lg:h-44 w-auto">
+                    <div class="float-data mb-6 lg:mb-8 -ml-1 lg:-ml-4">
+                        <img src="logo.svg" alt="Bear Radar" class="h-24 sm:h-28 lg:h-44 w-auto">
                     </div>
 
                     <!-- Headline with Glitch Effect -->
-                    <h1 class="text-4xl lg:text-6xl font-bold mb-6 leading-tight">
+                    <h1 class="text-3xl sm:text-4xl lg:text-6xl font-bold mb-4 lg:mb-6 leading-tight">
                         <span class="text-white">Real-time</span>
                         <span class="text-radar-green glow-green glitch" data-text=" Radar"> Radar</span>
                         <br>
@@ -191,7 +191,7 @@
                     </h1>
 
                     <!-- Tagline with Typing Effect -->
-                    <div class="text-xl lg:text-2xl mb-8 leading-relaxed h-20">
+                    <div class="text-lg sm:text-xl lg:text-2xl mb-6 lg:mb-8 leading-relaxed min-h-[4rem] lg:min-h-[5rem]">
                         <div class="typing-container">
                             <span class="typing-text text-gray-400">Breakouts & market chaos</span>
                         </div>
@@ -202,17 +202,17 @@
                     </div>
 
                     <!-- Features -->
-                    <div class="flex flex-wrap gap-3 mb-8">
-                        <span class="px-4 py-2 rounded-full glass-card text-sm text-radar-green mono">STOCKS</span>
-                        <span class="px-4 py-2 rounded-full glass-card text-sm text-radar-blue mono">CRYPTO</span>
-                        <span class="px-4 py-2 rounded-full glass-card text-sm text-gray-400 mono">REAL-TIME</span>
-                        <span class="px-4 py-2 rounded-full glass-card text-sm text-radar-red mono">ALERTS</span>
+                    <div class="flex flex-wrap gap-2 sm:gap-3 mb-6 lg:mb-8">
+                        <span class="px-3 py-1.5 sm:px-4 sm:py-2 rounded-full glass-card text-xs sm:text-sm text-radar-green mono">STOCKS</span>
+                        <span class="px-3 py-1.5 sm:px-4 sm:py-2 rounded-full glass-card text-xs sm:text-sm text-radar-blue mono">CRYPTO</span>
+                        <span class="px-3 py-1.5 sm:px-4 sm:py-2 rounded-full glass-card text-xs sm:text-sm text-gray-400 mono">REAL-TIME</span>
+                        <span class="px-3 py-1.5 sm:px-4 sm:py-2 rounded-full glass-card text-xs sm:text-sm text-radar-red mono">ALERTS</span>
                     </div>
                 </div>
 
                 <!-- Right side - Email signup -->
                 <div class="relative z-10">
-                    <div class="glass-card rounded-2xl p-8 lg:p-10 relative overflow-hidden">
+                    <div class="glass-card rounded-xl sm:rounded-2xl p-6 sm:p-8 lg:p-10 relative overflow-hidden">
                         <!-- Card decorations -->
                         <div class="absolute top-0 right-0 w-32 h-32 bg-radar-green opacity-5 blur-3xl"></div>
                         <div class="absolute bottom-0 left-0 w-32 h-32 bg-radar-blue opacity-5 blur-3xl"></div>
@@ -223,26 +223,26 @@
                             <span class="text-xs text-gray-500 mono uppercase tracking-wider">Building something epic</span>
                         </div>
 
-                        <h2 class="text-2xl lg:text-3xl font-bold mb-4">
+                        <h2 class="text-xl sm:text-2xl lg:text-3xl font-bold mb-3 sm:mb-4">
                             Get Early Access
                         </h2>
 
-                        <p class="text-gray-400 mb-8">
+                        <p class="text-gray-400 mb-6 sm:mb-8 text-sm sm:text-base">
                             Be the first to know when we launch. Drop your email and we'll ping you when the radar goes live.
                         </p>
 
                         <!-- Email form -->
-                        <form id="signup-form" class="space-y-4">
+                        <form id="signup-form" class="space-y-3 sm:space-y-4">
                             <div class="relative">
                                 <input 
                                     type="email" 
                                     id="email"
                                     placeholder="your@email.com"
                                     required
-                                    class="w-full px-5 py-4 bg-radar-darker border border-gray-800 rounded-xl text-white placeholder-gray-600 focus:outline-none focus:border-radar-green input-glow transition-all mono"
+                                    class="w-full px-4 sm:px-5 py-3 sm:py-4 bg-radar-darker border border-gray-800 rounded-lg sm:rounded-xl text-white placeholder-gray-600 focus:outline-none focus:border-radar-green input-glow transition-all mono text-sm sm:text-base"
                                 >
                                 <div class="absolute right-3 top-1/2 -translate-y-1/2 text-gray-700">
-                                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <svg class="w-4 h-4 sm:w-5 sm:h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
                                     </svg>
                                 </div>
@@ -250,54 +250,54 @@
 
                             <button 
                                 type="submit"
-                                class="w-full btn-radar bg-radar-green text-radar-darker font-semibold py-4 px-6 rounded-xl flex items-center justify-center gap-2"
+                                class="w-full btn-radar bg-radar-green text-radar-darker font-semibold py-3 sm:py-4 px-6 rounded-lg sm:rounded-xl flex items-center justify-center gap-2 text-sm sm:text-base"
                             >
                                 <span>Notify Me</span>
-                                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <svg class="w-4 h-4 sm:w-5 sm:h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"></path>
                                 </svg>
                             </button>
                         </form>
 
                         <!-- Success message (hidden by default) -->
-                        <div id="success-message" class="hidden mt-4 p-4 rounded-xl bg-radar-green/10 border border-radar-green/20">
-                            <div class="flex items-center gap-3">
-                                <svg class="w-6 h-6 text-radar-green" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <div id="success-message" class="hidden mt-4 p-3 sm:p-4 rounded-lg sm:rounded-xl bg-radar-green/10 border border-radar-green/20">
+                            <div class="flex items-center gap-2 sm:gap-3">
+                                <svg class="w-5 h-5 sm:w-6 sm:h-6 text-radar-green flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
                                 </svg>
-                                <span class="text-radar-green">You're on the list! We'll be in touch.</span>
+                                <span class="text-radar-green text-sm sm:text-base">You're on the list! We'll be in touch.</span>
                             </div>
                         </div>
 
                         <!-- Stats -->
-                        <div class="mt-8 pt-8 border-t border-gray-800/50">
-                            <div class="grid grid-cols-3 gap-4 text-center">
+                        <div class="mt-6 sm:mt-8 pt-6 sm:pt-8 border-t border-gray-800/50">
+                            <div class="grid grid-cols-3 gap-2 sm:gap-4 text-center">
                                 <div class="float-data" style="animation-delay: 0.2s;">
-                                    <div class="text-2xl font-bold text-radar-green mono">24/7</div>
-                                    <div class="text-xs text-gray-500 mt-1">Monitoring</div>
+                                    <div class="text-lg sm:text-2xl font-bold text-radar-green mono">24/7</div>
+                                    <div class="text-[10px] sm:text-xs text-gray-500 mt-1">Monitoring</div>
                                 </div>
                                 <div class="float-data" style="animation-delay: 0.4s;">
-                                    <div class="text-2xl font-bold text-radar-blue mono">&lt;1s</div>
-                                    <div class="text-xs text-gray-500 mt-1">Alert Speed</div>
+                                    <div class="text-lg sm:text-2xl font-bold text-radar-blue mono">&lt;1s</div>
+                                    <div class="text-[10px] sm:text-xs text-gray-500 mt-1">Alert Speed</div>
                                 </div>
                                 <div class="float-data" style="animation-delay: 0.6s;">
-                                    <div class="text-2xl font-bold text-radar-red mono">∞</div>
-                                    <div class="text-xs text-gray-500 mt-1">Hopium</div>
+                                    <div class="text-lg sm:text-2xl font-bold text-radar-red mono">∞</div>
+                                    <div class="text-[10px] sm:text-xs text-gray-500 mt-1">Hopium</div>
                                 </div>
                             </div>
                         </div>
                     </div>
 
                     <!-- Trust badges -->
-                    <div class="mt-6 flex items-center justify-center gap-6 text-gray-600 text-sm">
-                        <div class="flex items-center gap-2">
-                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <div class="mt-4 sm:mt-6 flex items-center justify-center gap-4 sm:gap-6 text-gray-600 text-xs sm:text-sm">
+                        <div class="flex items-center gap-1.5 sm:gap-2">
+                            <svg class="w-3.5 h-3.5 sm:w-4 sm:h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"></path>
                             </svg>
                             <span>No spam</span>
                         </div>
-                        <div class="flex items-center gap-2">
-                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <div class="flex items-center gap-1.5 sm:gap-2">
+                            <svg class="w-3.5 h-3.5 sm:w-4 sm:h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
                             </svg>
                             <span>Instant alerts</span>
@@ -309,12 +309,12 @@
     </main>
 
     <!-- Footer -->
-    <footer class="py-6 border-t border-gray-800/50 relative z-10">
-        <div class="container mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-gray-600">
+    <footer class="py-4 sm:py-6 border-t border-gray-800/50 relative z-10">
+        <div class="container mx-auto px-4 sm:px-6 flex flex-col md:flex-row items-center justify-between gap-3 sm:gap-4 text-xs sm:text-sm text-gray-600">
             <div class="flex items-center gap-2">
                 <span>© 2026 Bear Radar</span>
                 <span class="text-gray-800">|</span>
-                <span class="mono text-xs">v0.1-alpha</span>
+                <span class="mono text-[10px] sm:text-xs">v0.1-alpha</span>
             </div>
             <div class="flex items-center gap-4">
                 <a href="#" class="hover:text-radar-green transition-colors">Twitter</a>

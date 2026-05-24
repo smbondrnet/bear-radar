@@ -10,7 +10,7 @@ git init
 git add .
 git commit -m "Initial commit"
 git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/bear-radar.git
+git remote add origin https://github.com/smbondrnet/bear-radar.git
 git push -u origin main
 ```
 
@@ -36,7 +36,7 @@ Go to GoDaddy → **My Products** → **DNS** for `bear-radar.io`:
 #### Add CNAME Record (for `www.bear-radar.io`):
 | Type | Name | Value |
 |------|------|-------|
-| CNAME | www | YOUR_USERNAME.github.io |
+| CNAME | www | smbondrnet.github.io |
 
 ### 4. Finalize in GitHub
 1. In **Settings** → **Pages**, enter `bear-radar.io` as custom domain

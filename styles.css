@@ -368,3 +368,75 @@ body {
 @keyframes fadeIn {
     to { opacity: 1; }
 }
+
+/* ==================== */
+/* MOBILE RESPONSIVE */
+/* ==================== */
+@media (max-width: 768px) {
+    /* Reduce particles on mobile for performance */
+    .particle:nth-child(n+25) {
+        display: none;
+    }
+    
+    /* Hide radar animation on small screens */
+    .radar-sweep,
+    .radar-ring {
+        display: none;
+    }
+    
+    /* Adjust typing effect for mobile */
+    .typing-text,
+    .typing-text-second {
+        white-space: normal;
+        border-right: none;
+        animation: fadeInText 1s ease forwards;
+    }
+    
+    .typing-text-second {
+        animation-delay: 1s;
+    }
+    
+    @keyframes fadeInText {
+        from { opacity: 0; transform: translateY(10px); }
+        to { opacity: 1; transform: translateY(0); }
+    }
+    
+    /* Reduce glow effects for better performance */
+    .glow-green {
+        text-shadow: 0 0 10px rgba(0, 255, 136, 0.4);
+    }
+    
+    .glow-red {
+        text-shadow: 0 0 10px rgba(255, 51, 102, 0.4);
+    }
+    
+    /* Smaller blips on mobile */
+    .blip {
+        width: 6px;
+        height: 6px;
+    }
+    
+    /* Adjust glass card */
+    .glass-card {
+        backdrop-filter: blur(10px);
+    }
+}
+
+@media (max-width: 480px) {
+    /* Extra small screens */
+    .ticker-item {
+        gap: 1rem;
+        padding-right: 1rem;
+    }
+    
+    /* Hide more particles */
+    .particle:nth-child(n+15) {
+        display: none;
+    }
+    
+    /* Simplify glitch on very small screens */
+    .glitch::before,
+    .glitch::after {
+        display: none;
+    }
+}
